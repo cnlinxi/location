@@ -28,7 +28,7 @@ for mall in mall_list:
             else:
                 wifi_dict[i[0]]+=1
         l.append(r)    
-    delate_wifi=[]#delate_wifi是一个存储bssid的list，存储出现次数不超过20次的bssid
+    delate_wifi=[]#delate_wifi是一个存储bssid的list，存储出现次数不超过15次的bssid
     for i in wifi_dict:
         if wifi_dict[i]<15:
             delate_wifi.append(i)
