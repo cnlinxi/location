@@ -39,7 +39,7 @@ for mall in mall_list:
             if n not in delate_wifi:
                 new[n]=row[n]
         m.append(new)
-    train1 = pd.concat([train1,pd.DataFrame(m)], axis=1)#另一种形式的one-hot，不过出现的bssid标出现的次数，该bssid必须出现20次以上
+    train1 = pd.concat([train1,pd.DataFrame(m)], axis=1)#另一种形式的one-hot，不过出现的bssid标出现的次数，该bssid必须出现15次以上
     df_train=train1[train1.shop_id.notnull()]
     df_test=train1[train1.shop_id.isnull()]
     lbl = preprocessing.LabelEncoder()
