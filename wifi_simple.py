@@ -32,7 +32,7 @@ for mall in mall_list:
     for i in wifi_dict:
         if wifi_dict[i]<15:
             delate_wifi.append(i)
-    m=[]#m是一个存储字典的list，字典形式：{'bssid':'signal'}，该list存储出现次数超过20次的bssid形成的字典
+    m=[]#m是一个存储字典的list，字典形式：{'bssid':'signal'}，该list存储出现次数超过15次的bssid形成的字典
     for row in l:
         new={}
         for n in row.keys():
