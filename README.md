@@ -1,6 +1,8 @@
 # 天池比赛：商场中精确定位用户所在店铺解决方案
 
 比赛地址：https://tianchi.aliyun.com/competition/introduction.htm?raceId=231620
+
+
 第一次参加天池比赛，没有任何经验，最后还没有上传最好成绩，初赛惨被淘汰：171/2845。尝试了几种方法，取得最高成绩的方案为wifi_simple.py，直接运行即可。
 
 另外的一个解决方案：
